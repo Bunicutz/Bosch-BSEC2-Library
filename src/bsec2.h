@@ -41,13 +41,13 @@
 
 /* Includes */
 #ifdef ARDUINO
-#include "Arduino.h"
-#include "Wire.h"
-#include "SPI.h"
+#include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
 #endif
 
 /* dependent library header */
-#include "bme68xLibrary.h"
+#include <bme68xLibrary.h>
 #include "inc/bsec_datatypes.h"
 #include "inc/bsec_interface_multi.h"
 
