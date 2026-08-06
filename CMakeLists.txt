@@ -2,5 +2,5 @@
 idf_component_register(
     SRCS "bsec2.h"
     INCLUDE_DIRS "."
-    REQUIRES "Bosch-BME68x-Library"
+    REQUIRES "https://github.com/Bunicutz/Bosch-BME68x-Library.git"
 )
